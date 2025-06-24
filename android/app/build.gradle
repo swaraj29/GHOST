@@ -79,10 +79,10 @@ android {
 
     namespace "com.ghost"
     defaultConfig {
-        applicationId "com.ghost"
+        applicationId 'com.swaraj.horrorstory'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
+        versionCode 3
         versionName "1.0"
     }
     signingConfigs {
@@ -119,3 +119,4 @@ dependencies {
 }
 
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
